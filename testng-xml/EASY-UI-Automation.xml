@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Easy UI Automation Testing" verbose="1" parallel = "none" thread-count="1">
+    <test name="TC001" preserve-order="true">
+        <classes>
+            <class name="com.easy.automation.testcase.TC001"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="TC002" preserve-order="true">
+        <classes>
+            <class name="com.easy.automation.testcase.TC002"/>
+        </classes>
+    </test> <!-- Test -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+</suite> <!-- Suite -->

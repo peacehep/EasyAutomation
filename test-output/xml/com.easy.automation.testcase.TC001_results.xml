@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC001"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.012">
+  <properties />
+            <testcase name="test1" time="0.003" classname="com.easy.automation.testcase.TC001">
+                <failure type="java.lang.AssertionError"
+                  message="expected [8] but found [7]"
+              >
+<![CDATA[java.lang.AssertionError: expected [8] but found [7]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertEqualsImpl(Assert.java:135)
+  org.testng.Assert.assertEquals(Assert.java:116)
+  org.testng.Assert.assertEquals(Assert.java:190)
+  org.testng.Assert.assertEquals(Assert.java:200)
+  com.easy.automation.testcase.TC001.test1(TC001.java:15)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:753)
+  org.testng.TestRunner.run(TestRunner.java:607)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+  org.testng.SuiteRunner.run(SuiteRunner.java:270)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+  org.testng.TestNG.runSuites(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1096)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test2" time="0.009" classname="com.easy.automation.testcase.TC001" />
+      
+</testsuite>
