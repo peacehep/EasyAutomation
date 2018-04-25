@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - TC001</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>TC001</h1>
+<p>
+  Test duration: 18.454s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="5" class="header failed">Failed Tests</th></tr>
+          <tr>
+          <td colspan="1" class="group">com.easy.automation.testcase.TC001</td>
+          <td colspan="1" class="group">Duration</td>
+          <td colspan="1" class="group">Log Info</td>
+          <td colspan="1" class="group">Screen Shot</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="测试用例-方法1">test1</span>
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"7", "8"</span><br />
+    
+            <div class="testOutput">
+                        D:\IntelliJ IDEA Project\EasyAutomation\screenshot\20180425_122726_test1.png<br />
+                                <br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [8] but found [7]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.failNotEquals(Assert.java:513)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:135)<br />
+              org.testng.Assert.assertEquals(Assert.java:116)<br />
+              org.testng.Assert.assertEquals(Assert.java:190)<br />
+              org.testng.Assert.assertEquals(Assert.java:200)<br />
+              com.easy.automation.testcase.TC001.test1(TC001.java:15)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:646)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:753)<br />
+              org.testng.TestRunner.run(TestRunner.java:607)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:368)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:270)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1209)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1124)<br />
+              org.testng.TestNG.run(TestNG.java:1096)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br />
+                </div>
+      </td>
+    <td class="screenshot">
+                      <div class="screenshotimage">
+                          <br />
+                          <img src='../../../screenshot/20180425_122726_test1.png' onclick='window.open("../../../screenshot/20180425_122726_test1.png")' hight='200' width='200'/><br />
+                      </div>
+          </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="测试用例-方法2">test2</span>
+      </td>
+  <td class="duration">
+    2.032s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        D:\IntelliJ IDEA Project\EasyAutomation\screenshot\20180425_122728_test2.png<br />
+                                <br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: chrome not reachable<br/>
+&nbsp; (Session info: chrome=64.0.3282.186)<br/>
+&nbsp; (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;<br/>
+System info: host: &apos;DESKTOP-IGA56E0&apos;, ip: &apos;192.168.100.233&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\HePing\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}<br/>
+Session ID: 7f077e432760af637bbc29581bc42eba</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:453)<br />
+              com.easy.automation.util.SeleniumUtil.switchToNextWindow(SeleniumUtil.java:38)<br />
+              com.easy.automation.testcase.TC001.test2(TC001.java:22)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:646)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:753)<br />
+              org.testng.TestRunner.run(TestRunner.java:607)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:368)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:270)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1209)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1124)<br />
+              org.testng.TestNG.run(TestNG.java:1096)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br />
+                </div>
+      </td>
+    <td class="screenshot">
+                      <div class="screenshotimage">
+                          <br />
+                          <img src='../../../screenshot/20180425_122728_test2.png' onclick='window.open("../../../screenshot/20180425_122728_test2.png")' hight='200' width='200'/><br />
+                      </div>
+          </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

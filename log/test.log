@@ -1,21 +1,18 @@
-2018-04-24 14:09:11 [main] [com.easy.automation.testcase.TC001] [setup]###########################################################
-2018-04-24 14:09:11 [main] [com.easy.automation.testcase.TC001] [setup]当前的操作系统是：[Windows 10 amd64]
-2018-04-24 14:09:11 [main] [com.easy.automation.testcase.TC001] [setup]启动测试浏览器为：[chrome]
-2018-04-24 14:09:11 [main] [com.easy.automation.testcase.TC001] [setup]测试开始
-2018-04-24 14:09:12 [main] [com.easy.automation.testcase.TC001] [setup]输入网址：https://testerhome.com/
-2018-04-24 14:09:38 [main] [com.easy.automation.testcase.TC001] [test1]78
-2018-04-24 14:09:38 [main] [com.easy.automation.testcase.TC001] [switchToNextWindow]当前窗口句柄: CDwindow-(344ED9686603F76E6EBEF06E2606DDDF)
-2018-04-24 14:09:38 [main] [com.easy.automation.testcase.TC001] [switchToNextWindow]窗口数量：1
-2018-04-24 14:09:38 [main] [com.easy.automation.testcase.TC001] [switchToNextWindow]当前窗口，继续
-2018-04-24 14:09:47 [main] [com.easy.automation.testcase.TC002] [setup]###########################################################
-2018-04-24 14:09:47 [main] [com.easy.automation.testcase.TC002] [setup]当前的操作系统是：[Windows 10 amd64]
-2018-04-24 14:09:47 [main] [com.easy.automation.testcase.TC002] [setup]启动测试浏览器为：[chrome]
-2018-04-24 14:09:47 [main] [com.easy.automation.testcase.TC002] [setup]测试开始
-2018-04-24 14:09:48 [main] [com.easy.automation.testcase.TC002] [setup]输入网址：https://testerhome.com/
-2018-04-24 14:10:12 [main] [com.easy.automation.testcase.TC002] [clickLoginLink]点击登录链接
-2018-04-24 14:10:13 [main] [com.easy.automation.testcase.TC002] [getCurrentUrl]当前URL是： https://testerhome.com/account/sign_in
-2018-04-24 14:10:13 [main] [com.easy.automation.testcase.TC002] [setUsername]输入用户名：seleniumTest
-2018-04-24 14:10:13 [main] [com.easy.automation.testcase.TC002] [setPassword]输入密码：test
-2018-04-24 14:10:13 [main] [com.easy.automation.testcase.TC002] [clickLoginBtn]点击登录按钮
-2018-04-24 14:10:13 [main] [com.easy.automation.testcase.TC002] [isLoginSuccess]校验是否登录成功
-2018-04-24 14:10:33 [main] [com.easy.automation.testcase.TC002] [isElementExisted]Web element 不存在
+2018-04-25 12:27:16 [main] [com.easy.automation.testcase.TC001] [setup]###########################################################
+2018-04-25 12:27:16 [main] [com.easy.automation.testcase.TC001] [setup]当前的操作系统是：[Windows 10 amd64]
+2018-04-25 12:27:16 [main] [com.easy.automation.testcase.TC001] [setup]启动测试浏览器为：[chrome]
+2018-04-25 12:27:16 [main] [com.easy.automation.testcase.TC001] [setup]测试开始
+2018-04-25 12:27:18 [main] [com.easy.automation.testcase.TC001] [setup]输入网址：https://testerhome.com/
+2018-04-25 12:27:26 [main] [com.easy.automation.testcase.TC001] [test1]78
+2018-04-25 12:27:35 [main] [com.easy.automation.testcase.TC002] [setup]###########################################################
+2018-04-25 12:27:35 [main] [com.easy.automation.testcase.TC002] [setup]当前的操作系统是：[Windows 10 amd64]
+2018-04-25 12:27:35 [main] [com.easy.automation.testcase.TC002] [setup]启动测试浏览器为：[chrome]
+2018-04-25 12:27:35 [main] [com.easy.automation.testcase.TC002] [setup]测试开始
+2018-04-25 12:27:36 [main] [com.easy.automation.testcase.TC002] [setup]输入网址：https://testerhome.com/
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [clickLoginLink]点击登录链接
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [getCurrentUrl]当前URL是： https://testerhome.com/account/sign_in
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [setUsername]输入用户名：seleniumTest
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [setPassword]输入密码：test
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [clickLoginBtn]点击登录按钮
+2018-04-25 12:27:59 [main] [com.easy.automation.testcase.TC002] [isLoginSuccess]校验是否登录成功
+2018-04-25 12:28:19 [main] [com.easy.automation.testcase.TC002] [isElementExisted]Web element 不存在

@@ -183,12 +183,14 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>utf-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <argLine>-Dfile.encoding=UTF-8</argLine>
         <!--<property>-->
         <!--<name>listener</name>-->
         <!--<value>com.cccis.util.RetryListener</value>-->
