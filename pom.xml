@@ -170,7 +170,7 @@
                     <suiteXmlFiles>
                         <suitXmlFile>testng-xml/EASY-UI-Automation.xml</suitXmlFile>
                     </suiteXmlFiles>
-                    <reportsDirectory>report/${build.time}/</reportsDirectory>
+                    <reportsDirectory>report/default/</reportsDirectory>
                     <systemPropertyVariables>
                         <!--上面配置的做用是为了报告中的显示不会单纯的显示出html，而且能够正确的加载出html-->
                         <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
